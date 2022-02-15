@@ -4,7 +4,7 @@ import com.javalearn.circle.entity.Circle;
 import com.javalearn.circle.entity.Point;
 
 public class CircleCreator {
-    private final String DELIMITER = "\\s+";
+    private final static String DELIMITER = "\\s+";
 
     public Circle createCircle (String line){
 

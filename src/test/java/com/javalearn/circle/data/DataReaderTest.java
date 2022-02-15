@@ -15,7 +15,7 @@ public class DataReaderTest {
             "src/test/resources/ValidLinesData.txt";
     private static final String INVALID_DATA_PATH =
             "src/test/resources/InValidLinesData.txt";
-    private static final String ABSENT_PATH =
+    private static final String ABSENT_FILE_PATH =
             "src/test/resources/absentFile.txt";
 
     private final static List<String> VALID_LINES =
@@ -53,7 +53,7 @@ public class DataReaderTest {
     public void testReadWhenFileIsAbsent  () throws DataException {
         //given
         //when
-        List<String> testLines = reader.read(ABSENT_PATH);
+        List<String> testLines = reader.read(ABSENT_FILE_PATH);
     }
 }
 

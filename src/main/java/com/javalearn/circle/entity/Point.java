@@ -1,7 +1,6 @@
 package com.javalearn.circle.entity;
 
-public class
-Point {
+public class Point {
     private final double xCoordinate;
     private final double yCoordinate;
 
@@ -30,5 +29,4 @@ Point {
         return Double.compare(anotherPoint.xCoordinate, this.xCoordinate) == 0 &&
                 Double.compare(anotherPoint.yCoordinate, this.yCoordinate) == 0;
     }
-
 }

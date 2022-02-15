@@ -1,9 +1,8 @@
 package com.javalearn.circle.entity;
 
 public class Circle {
-    private Point centre;
-    private double radius;
-
+    private final Point centre;
+    private final double radius;
 
     public Circle (Point centre, double radius){
         this.centre = centre;
@@ -15,14 +14,6 @@ public class Circle {
 
     public double getRadius(){
         return radius;
-    }
-
-    public void setCentre(Point modifiedPoint) {
-        this.centre = modifiedPoint;
-    }
-
-    public void setRadius(double modifiedRadius) {
-        this.radius = modifiedRadius;
     }
 
     @Override

@@ -18,7 +18,7 @@ public class Calculator {
 
         double minimalCirclePoint;
         double maximalCirclePoint;
-        Point centre = circle.getCentre();;
+        Point centre = circle.getCentre();
 
         if (axis == CoordinateAxes.X_AXIS){
 
@@ -32,7 +32,7 @@ public class Calculator {
 
         boolean circleCrossing = false;
         boolean circleCrossingOnDistance = false;
-        if (minimalCirclePoint < 0  & maximalCirclePoint > 0)  {
+        if (minimalCirclePoint < 0  & maximalCirclePoint > 0) {
             circleCrossing  = true;
         }
 
@@ -47,4 +47,3 @@ public class Calculator {
         return circleCrossingOnDistance;
     }
 }
-
